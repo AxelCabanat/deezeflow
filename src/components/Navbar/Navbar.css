@@ -1,0 +1,78 @@
+nav {
+  height: 65px;
+  background: #191922;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: -1px -4px 11px 0 rgba(12, 12, 18, 0.81);
+  -webkit-box-shadow: -1px -4px 11px 0 rgba(12, 12, 18, 0.81);
+  -moz-box-shadow: -1px -4px 11px 0 rgba(12, 12, 18, 0.81);
+  z-index: 10;
+}
+
+.list {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+button.accueil,
+button.quizzMood {
+  cursor: pointer;
+  box-shadow: inset 5px 5px 10px 0 #313144;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 100%;
+  position: relative;
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+
+button.accueil a,
+button.quizzMood a {
+  display: block;
+  width: 100%;
+  height: 45 px;
+}
+
+.list li {
+  box-shadow: 5px 5px 10px 0 #121218;
+  border-radius: 100%;
+}
+
+.list li span {
+  vertical-align: middle;
+}
+
+.accueil::before,
+.quizzMood::before {
+  content: '';
+  position: absolute;
+  box-shadow: -5px -5px 10px 0 #2a2937;
+  border-radius: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.accueil::after,
+.quizzMood::after {
+  content: '';
+  position: absolute;
+  box-shadow: inset -5px -5px 10px 0 #121218;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  z-index: -1;
+}

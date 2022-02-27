@@ -1,0 +1,381 @@
+.theme-default-shadow,
+.theme-concentration-shadow {
+  box-shadow: -5px -5px 15px 0 #6e2cff;
+}
+
+.buttonMood.theme-default-shadow,
+.buttonMood.theme-concentration-shadow {
+  box-shadow: -10px -10px 15px 0 #6e2cff;
+}
+
+.buttonMood.theme-default-shadow::after,
+.buttonMood.theme-concentration-shadow::after {
+  box-shadow: -10px -10px 15px 0 #6e2cff;
+}
+
+.theme-default-shadow::before,
+.theme-concentration-shadow::before {
+  box-shadow: 5px 5px 15px 0 #a157c9;
+}
+
+.buttonMood.theme-default-shadow::before,
+.buttonMood.theme-concentration-shadow::before {
+  box-shadow: 10px 10px 15px 0 #a157c9;
+}
+
+.theme-joie-shadow {
+  box-shadow: -5px -5px 15px 0 #ff9365;
+}
+.buttonMood.theme-joie-shadow {
+  box-shadow: -10px -10px 15px 0 #ff9365;
+}
+
+.buttonMood.theme-joie-shadow::after {
+  box-shadow: -10px -10px 15px 0 #ff9365;
+}
+
+.theme-joie-shadow::before {
+  box-shadow: 5px 5px 15px 0 #b940b6;
+}
+
+.buttonMood.theme-joie-shadow::before {
+  box-shadow: 10px 10px 15px 0 #b940b6;
+}
+
+.buttonMood.theme-colère-shadow::after {
+  box-shadow: -10px -10px 15px 0 #b52827;
+}
+
+.theme-colère-shadow {
+  box-shadow: -5px -5px 15px 0 #b52827;
+}
+
+.theme-colère-shadow::before {
+  box-shadow: 5px 5px 15px 0 #7a3717;
+}
+
+.buttonMood.theme-colère-shadow::before {
+  box-shadow: 10px 10px 15px 0 #7a3717;
+}
+
+.theme-tristesse-shadow {
+  box-shadow: -5px -5px 15px 0 #02476c;
+}
+
+.buttonMood.theme-tristesse-shadow::after {
+  box-shadow: -10px -10px 15px 0 #02476c;
+}
+
+.theme-tristesse-shadow::before {
+  box-shadow: 5px 5px 15px 0 #7febff;
+}
+
+.buttonMood.theme-tristesse-shadow::before {
+  box-shadow: 10px 10px 15px 0 #7febff;
+}
+
+.theme-fiesta-shadow {
+  box-shadow: -5px -5px 15px 0 #f9b83d;
+}
+
+.buttonMood.theme-fiesta-shadow::after {
+  box-shadow: -10px -10px 15px 0 #f9b83d;
+}
+
+.theme-fiesta-shadow::before {
+  box-shadow: 15px 10px 15px 0 #d81450;
+}
+
+.buttonMood.theme-fiesta-shadow::before {
+  box-shadow: 10px 10px 15px 0 #d81450;
+}
+
+.theme-sport-shadow {
+  box-shadow: -5px -5px 15px 0 #2189e8;
+}
+
+.buttonMood.theme-sport-shadow::after {
+  box-shadow: -10px -10px 15px 0 #2189e8;
+}
+
+.theme-sport-shadow::before {
+  box-shadow: 5px 5px 15px 0 #f9c82e;
+}
+
+.buttonMood.theme-sport-shadow::before {
+  box-shadow: 10px 10px 15px 0 #f9c82e;
+}
+
+.theme-skyrim-shadow::after {
+  -moz-box-shadow: -5px -5px 15px 0 #400183;
+  box-shadow: -5px -5px 15px 0 #400183;
+}
+
+.theme-skyrim-shadow::before {
+  box-shadow: 5px 5px 15px 0 #2b64c1;
+}
+
+.buttonMood.theme-skyrim-shadow::before {
+  box-shadow: 10px 10px 15px 0 #2b64c1;
+}
+
+.divButton .theme-skyrim-shadow::after {
+  -moz-box-shadow: -10px -10px 15px 0 #400183;
+  box-shadow: -10px -10px 15px 0 #400183;
+}
+
+.theme-fiesta-fill .rc-slider-handle {
+  background: #d81450;
+}
+
+.theme-fiesta-fill .rc-slider-track {
+  background: linear-gradient(-45deg, #d81450, #f9b83d);
+}
+
+.theme-joie-fill .rc-slider-track {
+  background: linear-gradient(-45deg, #b940b6, #ff9365);
+}
+
+.theme-joie-fill .rc-slider-handle {
+  background: #b940b6;
+}
+
+.theme-colère-fill .rc-slider-track {
+  background: linear-gradient(-45deg, #7a3717, #b52827);
+}
+
+.theme-colère-fill .rc-slider-handle {
+  background: #7a3717;
+}
+
+.theme-tristesse-fill .rc-slider-track {
+  background: linear-gradient(-45deg, #7febff, #02476c);
+}
+
+.theme-tristesse-fill .rc-slider-handle {
+  background: #7febff;
+}
+
+.theme-sport-fill .rc-slider-track {
+  background: linear-gradient(-45deg, #f9c82e, #2189e8);
+}
+
+.theme-sport-fill .rc-slider-handle {
+  background: #f9c82e;
+}
+
+.theme-skyrim-fill .rc-slider-track {
+  background: linear-gradient(-45deg, #2b64c1, #400183);
+}
+
+.theme-skyrim-fill .rc-slider-handle {
+  background: #2b64c1;
+}
+
+.buttonPlay::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.suggest h3 {
+  text-align: center;
+  border-radius: 20px;
+  width: 80%;
+  margin: 30px auto 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #191922;
+  position: relative;
+  z-index: 1;
+}
+
+.suggest h3::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.suggest h3::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(42, 41, 55);
+  background: linear-gradient(
+    336deg,
+    rgba(42, 41, 55, 1) 0%,
+    rgba(18, 18, 24, 1) 100%
+  );
+  width: 102%;
+  height: 54px;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.suggest h3 span {
+  z-index: 10;
+  position: relative;
+  background: #191922;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 20px;
+  font-family: 'Mabry-Pro-Bold', sans-serif;
+  display: block;
+}
+
+.playlistMood {
+  width: 240px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  border-radius: 100%;
+  position: relative;
+  box-shadow: -15px -15px 10px 0 #2a2937;
+  margin-bottom: 20px;
+  z-index: 1;
+  margin-top: 20px;
+}
+
+.playlistMood::before {
+  content: '';
+  position: absolute;
+  box-shadow: 15px 15px 10px 0 #121218;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.playlistMood::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(42, 41, 55);
+  background: linear-gradient(
+    336deg,
+    rgba(42, 41, 55, 1) 0%,
+    rgba(18, 18, 24, 1) 100%
+  );
+  width: 106%;
+  height: 106%;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.playlistMood img {
+  width: 100%;
+  border-radius: 100%;
+  position: relative;
+  z-index: 5;
+  vertical-align: middle;
+}
+
+.playlistMood p {
+  position: absolute;
+  z-index: 99;
+  text-decoration: none;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  font-family: 'Mabry-Pro-Bold', sans-serif;
+  transform: translate(-50%, -50%);
+  background: #191922;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: inset -5px -5px 10px 0 #313144;
+}
+
+.playlistMood p::before {
+  content: '';
+  position: absolute;
+  box-shadow: inset 5px 5px 10px 0 #121218;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.playlistMood p::after {
+  content: '';
+  position: absolute;
+  box-shadow: -5px -5px 10px 0 #2a2937;
+  border-radius: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.suggestOther {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.suggest h2 {
+  width: 80%;
+  margin: 30px auto 20px;
+}
+
+.suggestOther a {
+  display: block;
+  border-radius: 10px;
+  width: 30%;
+  overflow: hidden;
+  margin-right: 4%;
+  display: inline-block;
+}
+
+.suggestOther a img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.suggestOtherScroll {
+  overflow: auto;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+.suggestOtherScroll::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.suggestOtherScroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #d62929;
+}

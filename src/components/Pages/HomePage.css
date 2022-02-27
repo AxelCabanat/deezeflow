@@ -1,0 +1,167 @@
+.divButton {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.buttonMood {
+  border-radius: 50%;
+  height: 240px;
+  width: 240px;
+  text-align: center;
+  margin-top: 45px;
+  background-color: #191922;
+  box-shadow: 5px 5px 8px 5px rgba(49, 47, 66, 0.61) inset;
+  padding: 35px;
+  border: none;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  animation: scale 1.5s linear infinite;
+}
+
+.buttonMood::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  box-shadow: -5px -5px 10px 0 rgba(96, 47, 229, 0.75);
+  pointer-events: none;
+  animation: rotate 2s linear infinite;
+}
+
+.buttonMood div::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(42, 41, 55);
+  background: linear-gradient(
+    336deg,
+    rgba(42, 41, 55, 1) 0%,
+    rgba(18, 18, 24, 1) 100%
+  );
+  width: 95%;
+  height: 95%;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.buttonMood::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+
+  pointer-events: none;
+  animation: rotateThis 2s linear infinite;
+}
+
+@keyframes rotateThis {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.buttonMood h2 {
+  color: white;
+  font-size: 150%;
+  font-family: 'Mabry-Pro-Bold', sans-serif;
+}
+
+.buttonMood p {
+  color: #67686d;
+}
+
+.buttonMood a {
+  text-decoration: none;
+}
+
+.button-playlist-homepage {
+  display: block;
+  height: 100%;
+  border-radius: 10px;
+  width: 30%;
+  overflow: hidden;
+  margin-right: 4%;
+  display: inline-block;
+}
+
+.plus-img {
+  cursor: pointer;
+  box-shadow: inset 5px 5px 10px 0 #313144;
+  border-radius: 20px;
+  position: relative;
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+.plus-img::after {
+  content: '';
+  position: absolute;
+  box-shadow: inset -5px -5px 10px 0 #121218;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.plus-img::before {
+  content: '';
+  position: absolute;
+  box-shadow: -5px -5px 10px 0 #2a2937;
+  border-radius: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.accueil {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 180px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  justify-content: space-around;
+}

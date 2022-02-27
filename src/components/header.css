@@ -1,0 +1,194 @@
+.head-bar {
+  width: 100%;
+  height: 50px;
+  background-color: #191922;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: visible;
+  z-index: 10;
+  position: relative;
+  box-shadow: 0 4px 11px 0 rgba(12, 12, 18, 0.81);
+  -webkit-box-shadow: 0 4px 11px 0 rgba(12, 12, 18, 0.81);
+  -moz-box-shadow: 0 4px 11px 0 rgba(12, 12, 18, 0.81);
+}
+
+.head-bar h1 {
+  font-family: 'Mabry-Pro-Bold', sans-serif;
+}
+
+.deeze-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.deeze-logo {
+  display: flex;
+  margin: 0 10px;
+  align-items: center;
+}
+
+.deeze-logo span {
+  font-size: 28px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inherit;
+  margin-right: 10px;
+}
+
+.burger-zone {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+}
+
+.front-burger-icon {
+  width: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #191922;
+  cursor: pointer;
+}
+
+.burger-logo span {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.burger-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 5px 5px 10px 0 #313144;
+  box-shadow: inset 5px 5px 10px 0 #313144;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.burger-logo::after {
+  content: '';
+  -webkit-box-shadow: inset -5px -5px 10px 0 #121218;
+  box-shadow: inset -5px -5px 10px 0 #121218;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.burger-logo::before {
+  content: '';
+  -webkit-box-shadow: -5px -5px 10px 0 #2a2937;
+  box-shadow: -5px -5px 10px 0 #2a2937;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.burger-logo div::before {
+  content: '';
+  -webkit-box-shadow: 5px 5px 10px 0 #121218;
+  box-shadow: 5px 5px 10px 0 #121218;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.color {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid #191922 1px;
+}
+
+.joy-deployed,
+.focus-deployed,
+.anger-deployed,
+.sadness-deployed,
+.party-deployed,
+.sporty-deployed {
+  transition: top 0.5s;
+  z-index: 0;
+}
+
+.joy-deployed {
+  top: 55px;
+}
+
+.focus-deployed {
+  top: 90px;
+}
+
+.anger-deployed {
+  top: 125px;
+}
+
+.sadness-deployed {
+  top: 160px;
+}
+
+.party-deployed {
+  top: 195px;
+}
+
+.sporty-deployed {
+  top: 230px;
+}
+
+.not-deployed {
+  top: 0;
+  transition: top ease-out 0.5s;
+}
+
+.joy {
+  background: linear-gradient(-45deg, #b940b6, #ff9365);
+  z-index: 2;
+}
+
+.focus {
+  background: linear-gradient(-45deg, #9e55c8, #6e2cff);
+  z-index: 3;
+}
+
+.anger {
+  background: linear-gradient(-45deg, #281909, #b52827);
+  z-index: 4;
+}
+
+.sadness {
+  background: linear-gradient(-45deg, #7febff, #02476c);
+  z-index: 5;
+}
+
+.party {
+  background: linear-gradient(-45deg, #d81450, #f9b83d);
+  z-index: 6;
+}
+
+.sporty {
+  background: linear-gradient(-45deg, #f9c82e, #2189e8);
+  z-index: 7;
+}
+
+.head-bar a {
+  text-decoration: none;
+}

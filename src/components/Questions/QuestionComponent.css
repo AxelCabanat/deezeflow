@@ -1,0 +1,128 @@
+.box-answers {
+  background-color: black;
+  border-radius: 20px;
+  margin: 20px;
+  font-size: 13px;
+  box-shadow: inset 5px 5px 10px 0 #313144;
+  width: 80%;
+  margin: 0 auto 15px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  background: #191922;
+}
+
+.box-answers div {
+  padding: 15px;
+  text-align: center;
+}
+
+.question-screen ul {
+  margin-top: 20px;
+}
+
+.box-answers div::before {
+  content: '';
+  position: absolute;
+  box-shadow: -5px -5px 10px 0 #2a2937;
+  border-radius: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.box-answers::before {
+  content: '';
+  position: absolute;
+  box-shadow: -5px -5px 10px 0 #2a2937;
+  border-radius: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.box-answers::after {
+  content: '';
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #121218;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.box-questions {
+  text-align: center;
+  border-radius: 20px;
+  width: 80%;
+  margin: 30px auto 20px;
+  max-height: 50px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #191922;
+  position: relative;
+  z-index: 1;
+}
+
+.box-questions span {
+  z-index: 10;
+  position: relative;
+  background: #191922;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 16px;
+  border-radius: 20px;
+  font-family: 'Mabry-Pro-Bold', sans-serif;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.box-questions::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.box-questions::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(42, 41, 55);
+  background: linear-gradient(
+    336deg,
+    rgba(42, 41, 55, 1) 0%,
+    rgba(18, 18, 24, 1) 100%
+  );
+  width: 102%;
+  height: 54px;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.question-screen {
+  overflow-y: scroll;
+}

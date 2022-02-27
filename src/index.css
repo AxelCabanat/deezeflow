@@ -1,0 +1,207 @@
+:root {
+  --color-bck: linear-gradient(
+    0deg,
+    rgba(18, 18, 24, 1) 0%,
+    rgba(49, 49, 68, 1) 100%
+  );
+  --first-color: #191922;
+  --color-title: white;
+  --question: linear-gradient(
+    315deg,
+    rgba(110, 44, 255, 1) 0%,
+    rgba(161, 87, 201, 1) 100%;
+  );
+  --color-txt: #91918f;
+}
+
+@font-face {
+  font-family: 'Mabry-Pro';
+  src: url('./assets/font/Mabry-Pro.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mabry-Pro-Bold';
+  src: url('./assets/font/Mabry-Pro-Bold.woff') format('woff');
+}
+
+* {
+  color: white;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Mabry-Pro', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.App {
+  position: relative;
+  margin: 0 auto;
+  background: var(--color-bck);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.suggest {
+  overflow-y: auto;
+  height: calc(100% - 180px);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.theme-default-fill,
+.theme-concentration-fill {
+  background: linear-gradient(
+    -90deg,
+    rgba(110, 44, 255, 1) 0%,
+    rgba(161, 87, 201, 1) 100%
+  );
+}
+
+.theme-joie-fill {
+  background: linear-gradient(-45deg, #b940b6, #ff9365);
+}
+
+.theme-colère-fill {
+  background: linear-gradient(-45deg, #7a3717, #b52827);
+}
+
+.theme-tristesse-fill {
+  background: linear-gradient(-45deg, #7febff, #02476c);
+}
+
+.theme-fiesta-fill {
+  background: linear-gradient(-45deg, #d81450, #f9b83d);
+}
+
+.theme-sport-fill {
+  background: linear-gradient(-45deg, #f9c82e, #2189e8);
+}
+
+.theme-skyrim-fill {
+  background: linear-gradient(-45deg, #2b64c1, #400183);
+}

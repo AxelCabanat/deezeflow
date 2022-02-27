@@ -1,0 +1,23 @@
+.deezeflow-suggest {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+.playlistDeezeflow {
+  width: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.playlistDeezeflow img {
+  width: 120px;
+  border-radius: 50%;
+  border: solid #191922 3px;
+  margin: 5px;
+}
